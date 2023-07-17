@@ -1,0 +1,67 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.36.32537.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/olegjan/source/repos/project1/project1/main.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "c2ed70e0ea760967a41d787d16f27051d715e111485fef873afca5e2326c8837"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/olegjan/source/repos/project1/project1/cscreen.h"
+          },
+          "hashes": {
+            "sha-256": "f7f2f4562c02fcab32fcf34cfca31b56882100692046b8861aa92c32f91e1da0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/olegjan/source/repos/project1/project1/cgame.h"
+          },
+          "hashes": {
+            "sha-256": "d44dff9f75e3712a9fcf9326a649f94f626fe0e6ede8cd4f112d7b7eb1a40e48"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/olegjan/source/repos/project1/project1/csnake.h"
+          },
+          "hashes": {
+            "sha-256": "6c5da31fc517b15d34cf7ff781c6a343795f69a88ba64a304b83de08f12b50f0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/olegjan/source/repos/project1/project1/scoord.h"
+          },
+          "hashes": {
+            "sha-256": "17e53c7c18f04272df54012cc76a05478ff9f3865f39a9574a98fb7f0f62ef68"
+          }
+        }
+      ]
+    }
+  ]
+}
